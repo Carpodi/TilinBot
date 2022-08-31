@@ -1,0 +1,13 @@
+{
+    "name": "TilinServices",
+    "main": "index.js",
+    "author": "Carpodi",
+    "version": "1.0.0",
+    "description": "Bot oficial de los Tilines de Toktok.",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "discord.js": "^13.2.0"
+    }
+}

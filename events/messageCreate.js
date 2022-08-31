@@ -1,0 +1,16 @@
+const Discord = require("discord.js");
+
+module.exports = (client, message) => {
+    if (message.author.bot || message.channel.type === 'dm') return;
+
+    const prefix = client.config.app.prefix;
+
+    if (message.content.indexOf(prefix) !== 0) return;
+
+    const args = message.content.slice(prefix.length).trim().split(/ +/g);
+    const command = args.shift().toLowerCase();
+    const user = message.author;
+    const cmd = client.commands.get(command) || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(command));
+    if (blacklist.has(message.author.id)) return message.channel.send({ content: ":x: | Actualmente estas en la blacklist." });
+    if (cmd) cmd.execute(client, message, args);  
+  }
