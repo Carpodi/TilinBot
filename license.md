@@ -1,6 +1,8 @@
-MIT License
-
+License
 Copyright (c) 2022 Carpodi
+
+
+The use of this Repository is Free but its Sale or distribution is not allowed as you created it.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
