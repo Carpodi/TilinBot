@@ -1,9 +1,8 @@
 # TilinBot
-Source code for "Tilin Bot", a bot I made for a community that I don't recommend to anyone.
+Source code for "Tilin Bot", a bot I made.
 # Reason 
-I made the code open source because I got banned and had roles removed from the server for no apparent reason. Since I don't work with them anymore, here is the code. The version of discord.js is 13.8.0. Feel free to use this code and even modify/update it. Don't forget to give me credits.
-
-# Credits 
+I made the code open source because the server got deleted, and this code was so good, i guess.
+Made by:
 [Carpodi](https://carpodi.xyz)
 # Dependencies 
 
